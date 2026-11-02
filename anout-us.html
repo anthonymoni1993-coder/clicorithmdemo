@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Clicorithm is a Bengaluru-based digital marketing and advertising company helping businesses in India, the USA and Europe grow through data-driven strategy and measurable results.">
+  <title>About Clicorithm | Digital Marketing & Advertising Company in Bengaluru</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--ink:#202421;--ivory:#F6F3ED;--paper:#FCFAF6;--gold:#B78A4A;--gold-dark:#946B34;--muted:#77766f;--line:#e5dfd4;--white:#fff;--serif:"DM Serif Display",Georgia,serif;--sans:"DM Sans",Arial,sans-serif;--body:"Inter",Arial,sans-serif}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.75}a{color:inherit;text-decoration:none}.container{width:min(1160px,calc(100% - 48px));margin:auto}
+    .announcement{background:var(--ink);color:#e9e3d8;text-align:center;padding:8px 16px;font-size:11px;letter-spacing:.12em;text-transform:uppercase}
+    header{position:sticky;top:0;z-index:20;background:rgba(246,243,237,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+    .nav{height:78px;display:flex;align-items:center;justify-content:space-between;gap:28px}.brand{font-family:var(--sans);font-weight:700;letter-spacing:.16em;font-size:17px}.brand small{display:block;font-size:8px;letter-spacing:.28em;color:var(--gold-dark);font-weight:600;margin-top:-2px}
+    .navlinks{display:flex;align-items:center;gap:27px;font-size:12px;font-weight:600;color:#4f514c}.navlinks a:hover{color:var(--gold-dark)}.nav-cta,.btn{display:inline-flex;align-items:center;justify-content:center;background:var(--gold);color:#fff;padding:13px 22px;font-size:11px;font-weight:700;letter-spacing:.04em;border:1px solid var(--gold);transition:.2s}.nav-cta:hover,.btn:hover{background:var(--ink);border-color:var(--ink)}.menu{display:none;background:none;border:0;font-size:25px;color:var(--ink)}
+    .eyebrow{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold-dark);font-weight:700}.serif{font-family:var(--serif);font-weight:400;letter-spacing:-.025em}h1,h2,h3,p{margin-top:0}h1{font-size:clamp(42px,5.6vw,72px);line-height:1.03;margin:18px 0 22px}h2{font-size:clamp(32px,4vw,48px);line-height:1.12;margin:12px 0 18px}h3{font-size:21px;line-height:1.25;margin-bottom:12px}.lead{font-size:17px;line-height:1.8;color:#62635d;max-width:680px}.muted{color:var(--muted)}
+    .btn-outline{display:inline-flex;align-items:center;justify-content:center;padding:13px 22px;border:1px solid #bcb4a7;color:var(--ink);font-size:11px;font-weight:700}.btn-outline:hover{border-color:var(--gold);color:var(--gold-dark)}
+    section{padding:92px 0}
+    /* HERO */
+    .hero{padding:96px 0 82px;background:var(--ivory);overflow:hidden}.hero-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:76px;align-items:center}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin:32px 0 0}
+    .hero-visual{position:relative;min-height:440px;background:#ded7ca;overflow:hidden}.hero-visual img{width:100%;height:440px;object-fit:cover;display:block;filter:saturate(.55)}.visual-overlay{position:absolute;inset:auto 20px 20px;background:rgba(32,36,33,.92);color:#fff;padding:18px 20px}.visual-overlay span{display:block;color:#d2ae78;font-size:9px;letter-spacing:.2em;text-transform:uppercase;margin-bottom:5px}.visual-overlay strong{font-family:var(--serif);font-size:21px;font-weight:400;line-height:1.25}
+    .trustline{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:22px 0;background:#fbf9f4}.trustline .container{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.trustline span{font-size:10px;letter-spacing:.13em;text-transform:uppercase;color:#77766f}
+    /* STORY */
+    .story-grid{display:grid;grid-template-columns:.95fr 1.05fr;gap:90px;align-items:start}.story-copy{font-size:15px;color:#64655f;line-height:1.9}.story-copy p{margin-bottom:18px}.story-copy strong{color:var(--ink)}.note-box{background:#F6F3ED;border:1px dashed #cfc5b5;padding:16px 18px;font-size:13px;color:#5e605a}
+    /* WHO WE ARE */
+    .who{background:var(--ink);color:var(--ivory)}.who .eyebrow{color:#d2ae78}.facts-strip{display:grid;grid-template-columns:repeat(5,1fr);border:1px solid #40433f;margin-top:36px}.fact{padding:20px 14px;text-align:center;border-right:1px solid #40433f}.fact:last-child{border-right:0}.fact b{display:block;font-family:var(--serif);font-size:26px;font-weight:400}.fact span{font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:#d2ae78;font-weight:700}
+    /* DIFFERENT */
+    .diff-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:34px;margin-top:42px}.diff-card{border-top:1px solid var(--gold);padding-top:18px}.diff-card h3{font-family:var(--serif);font-size:22px;font-weight:400}.diff-card p{font-size:13px;color:#686962;line-height:1.8}
+    /* MISSION VISION */
+    .mv{background:var(--ivory)}.mv-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:36px}.mv-card{background:#fff;border:1px solid var(--line);padding:28px 28px}.mv-card span{font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-dark);font-weight:700}.mv-card h3{font-family:var(--serif);font-size:26px;margin:10px 0}.mv-card p{font-size:14px;color:#64655f;line-height:1.8;margin:0}
+    /* VALUES */
+    .values-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:34px;margin-top:42px}.value{border-top:1px solid #cfc5b5;padding-top:18px}.value b{display:flex;gap:10px;font-family:var(--serif);font-size:20px;font-weight:400;margin-bottom:8px}.value b i{color:var(--gold-dark);font-style:normal;font-family:var(--body);font-size:11px;padding-top:6px}.value p{font-size:13px;color:#686962;line-height:1.8;margin:0}
+    /* APPROACH BAR */
+    .approach{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.approach-bar{display:flex;align-items:center;gap:0;flex-wrap:wrap;margin:30px 0 18px;border:1px solid var(--line);background:var(--ivory)}.approach-step{flex:1;min-width:140px;padding:16px 14px;display:flex;align-items:center;gap:12px;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}.approach-step:not(:last-child){border-right:1px solid var(--line)}.approach-step em{font-family:var(--serif);font-style:normal;font-size:18px;color:var(--gold-dark)}.approach-step:after{content:"→";margin-left:auto;color:var(--gold-dark)}.approach-step:last-child:after{content:""}
+    /* TEAM */
+    .team{background:var(--ivory)}.team-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:36px}.team-card{background:#fff;border:1px solid var(--line);padding:0;overflow:hidden}.team-photo{aspect-ratio:4/3;background:#e8ddd0;overflow:hidden}.team-photo img{width:100%;height:100%;object-fit:cover;display:block;filter:saturate(.6)}.team-info{padding:18px 18px}.team-info b{display:block;font-size:14px}.team-info small{display:block;font-size:11px;color:var(--gold-dark);font-weight:700;letter-spacing:.06em;text-transform:uppercase;margin-top:2px}.team-info p{font-size:12px;color:#66675f;line-height:1.6;margin:10px 0 0}
+    .team-card.founder{grid-column:1 / -1;display:grid;grid-template-columns:340px 1fr}.team-card.founder .team-photo{aspect-ratio:auto;min-height:100%}.team-card.founder .team-info{padding:28px}
+    /* GLOBAL */
+    .global-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:60px;align-items:center}.loc-list{display:grid;grid-template-columns:1fr;gap:12px;margin-top:22px}.loc{border:1px solid var(--line);padding:14px 16px;display:flex;justify-content:space-between;gap:20px;font-size:13px;background:#fff}.loc b{font-size:12px}
+    /* CAREERS */
+    .careers{background:var(--ink);color:var(--ivory);padding:72px 0}.careers-grid{display:flex;justify-content:space-between;gap:40px;align-items:center}.careers .eyebrow{color:#d2ae78}.careers p{color:#bcbdb5;max-width:520px}
+    .cta{background:var(--gold);color:#fff;padding:75px 0}.cta-grid{display:flex;justify-content:space-between;align-items:center;gap:40px}.cta h2{max-width:650px;margin-bottom:12px}.cta p{max-width:610px;color:#f5ead9;font-size:14px}.cta .btn{background:var(--ink);border-color:var(--ink)}.cta .btn:hover{background:#fff;color:var(--ink);border-color:#fff}
+    footer{background:var(--ink);color:#e9e5dc;padding:58px 0 24px}.footer-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:45px}.footer-brand{font-size:17px;letter-spacing:.15em;font-weight:700}.footer-brand small{display:block;font-size:8px;color:#c9a36e;letter-spacing:.25em}.footer-about{font-size:11px;color:#b9bbb3;max-width:260px;margin-top:18px}.footer-col b{display:block;font-size:11px;margin-bottom:17px}.footer-col a{display:block;font-size:11px;color:#b9bbb3;margin:9px 0}.footer-col a:hover{color:#d2ae78}.copyright{border-top:1px solid #454943;margin-top:42px;padding-top:18px;color:#9ea198;font-size:10px;display:flex;justify-content:space-between;gap:20px}
+    @media(max-width:900px){.story-grid,.global-grid,.mv-grid{grid-template-columns:1fr;gap:32px}.diff-grid,.values-grid{grid-template-columns:1fr 1fr}.team-grid{grid-template-columns:1fr 1fr}.team-card.founder{grid-template-columns:1fr}.approach-step{border-right:0;border-bottom:1px solid var(--line)}.approach-step:last-child{border-bottom:0}}
+    @media(max-width:700px){.container{width:min(100% - 36px,560px)}.nav{height:68px}.menu{display:block}.navlinks{display:none;position:absolute;top:68px;left:0;right:0;background:var(--ivory);padding:20px 24px 25px;border-bottom:1px solid var(--line);flex-direction:column;align-items:flex-start}.navlinks.show{display:flex}.nav-cta{display:none}.hero{padding:62px 0 52px}.hero-grid{grid-template-columns:1fr;gap:32px}.hero-visual,.hero-visual img{height:300px;min-height:300px}section{padding:65px 0}.diff-grid,.values-grid,.team-grid{grid-template-columns:1fr}.facts-strip{grid-template-columns:1fr}.fact{border-right:0;border-bottom:1px solid #40433f}.fact:last-child{border-bottom:0}.careers-grid,.cta-grid{display:block}.cta .btn{margin-top:12px}.footer-grid{grid-template-columns:1fr 1fr;gap:32px}.footer-grid>div:first-child{grid-column:1/-1}}
+  </style>
+</head>
+<body>
+  <div class="announcement">Strategy · Creativity · Technology · Measurable Growth</div>
+  <header>
+    <div class="container nav">
+      <a class="brand" href="index.html">CLICORITHM<small>GROWTH PARTNER</small></a>
+      <button class="menu" aria-label="Open navigation" onclick="document.querySelector('.navlinks').classList.toggle('show')">☰</button>
+      <nav class="navlinks">
+        <a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">What We Do</a><a href="industries.html">Industries</a><a href="approach.html">Our Approach</a><a href="work.html">Our Work</a><a href="insights.html">Insights</a>
+      </nav>
+      <a class="nav-cta" href="#contact">LET'S TALK ↗</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- 1. HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow">ABOUT CLICORITHM · BENGALURU</div>
+          <h1 class="serif">Where Clicks Meet Algorithms. Where Brands Meet Growth.</h1>
+          <p class="lead">Clicorithm is a Bengaluru-based digital marketing and advertising company helping ambitious businesses in India, the USA and Europe turn clicks into customers and customers into long-term growth.</p>
+          <div class="hero-actions">
+            <a class="btn" href="#contact">BOOK A CONSULTATION ↗</a>
+            <a class="btn-outline" href="work.html">SEE OUR WORK</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=85" alt="Bengaluru office workspace">
+          <div class="visual-overlay"><span>CLICKS → ALGORITHMS → GROWTH</span><strong>Born in India's Silicon Valley.<br>Built for the world.</strong></div>
+        </div>
+      </div>
+    </section>
+    <div class="trustline"><div class="container"><span>Bengaluru HQ</span><span>India · USA · Europe</span><span>Full-Service Growth Partner</span><span>Measurable Results</span></div></div>
+
+    <!-- 2. OUR STORY -->
+    <section>
+      <div class="container story-grid">
+        <div><div class="eyebrow">OUR STORY</div><h2 class="serif">Born in India's Silicon Valley. Built for the world.</h2></div>
+        <div class="story-copy">
+          <p>Bengaluru is where India's brightest ideas turn into global businesses. Clicorithm was born here, from a simple observation: most businesses don't struggle because they lack effort. They struggle because their marketing runs on guesswork.</p>
+          <p>The name says it all. <strong>Click</strong>, because every customer journey starts with one. <strong>Algorithm</strong>, because behind every successful campaign is a system: data, logic and constant optimisation.</p>
+          <p>We started Clicorithm in <strong>[year]</strong> to bring that system to businesses that wanted more than "likes", impressions and monthly reports nobody could understand. Today we help brands across <strong>[industries]</strong> build digital marketing that is measurable, accountable and tied to real revenue.</p>
+          <div class="note-box">[Add one or two sentences about your founding moment, e.g., your first client, or the problem that made you start. Keep it true and specific.]</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. WHO WE ARE -->
+    <section class="who">
+      <div class="container">
+        <div class="story-grid">
+          <div><div class="eyebrow">WHO WE ARE</div><h2 class="serif" style="color:#fff">A team of strategists, creatives and data nerds</h2></div>
+          <div class="story-copy" style="color:#bcbdb5"><p style="color:#bcbdb5">We're a full-service digital marketing and advertising company. Our SEO specialists, performance marketers, designers, developers and content creators work as one team, not as separate departments passing work along.</p><p style="color:#bcbdb5">That means your strategy, creative and campaigns all pull in the same direction, and so do we.</p></div>
+        </div>
+        <div class="facts-strip">
+          <div class="fact"><b>[X]+</b><span>Projects Delivered</span></div>
+          <div class="fact"><b>[X]+</b><span>Clients Served</span></div>
+          <div class="fact"><b>[X]</b><span>Countries</span></div>
+          <div class="fact"><b>[X]+</b><span>Team Members</span></div>
+          <div class="fact"><b>[Year]</b><span>Est. Bengaluru</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. WHAT MAKES US DIFFERENT -->
+    <section>
+      <div class="container">
+        <div class="eyebrow">WHAT MAKES US DIFFERENT</div>
+        <h2 class="serif">We don't chase vanity metrics. We chase your growth.</h2>
+        <div class="diff-grid">
+          <div class="diff-card"><h3>Strategy first.</h3><p>We start with your business goals, not with a menu of services. Channels are chosen because they serve your growth, not because they are trending.</p></div>
+          <div class="diff-card"><h3>Data over opinions.</h3><p>Every decision is backed by numbers, and every number is shared with you. No black boxes.</p></div>
+          <div class="diff-card"><h3>Global outlook, local insight.</h3><p>We understand how buyers think in the USA, Europe and India, and we adapt your message to each market.</p></div>
+          <div class="diff-card"><h3>Radical transparency.</h3><p>Clear reporting, honest conversations and no jargon-filled smokescreens. You always know where you stand.</p></div>
+          <div class="diff-card"><h3>Built for ROI.</h3><p>If it doesn't help you get leads, sales or visibility that matters, we don't recommend it. Growth must be measurable.</p></div>
+          <div class="diff-card" style="background:var(--ivory);padding:18px;border:1px solid var(--line)"><h3 style="color:var(--gold-dark)">Our promise →</h3><p style="font-family:var(--serif);font-size:20px;line-height:1.3;color:var(--ink)">Never publish a number we can't prove.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. MISSION VISION -->
+    <section class="mv">
+      <div class="container">
+        <div class="eyebrow">OUR MISSION AND VISION</div>
+        <h2 class="serif">Why we do what we do.</h2>
+        <div class="mv-grid">
+          <div class="mv-card"><span>Our Mission</span><h3>To help businesses grow faster and smarter through data-driven marketing that delivers measurable results.</h3><p>We turn guesswork into a system — Click meets Algorithm — so every rupee, dollar and euro is accountable.</p></div>
+          <div class="mv-card"><span>Our Vision</span><h3>To become the most trusted digital growth partner for ambitious brands across India and the world.</h3><p>From Bengaluru to global markets, one standard of quality, one focus: your growth.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. VALUES -->
+    <section>
+      <div class="container">
+        <div class="eyebrow">WHAT WE STAND FOR</div>
+        <h2 class="serif">Our values</h2>
+        <div class="values-grid">
+          <div class="value"><b><i>01</i> Results over rhetoric</b><p>We let performance do the talking. Reports show business impact, not vanity metrics.</p></div>
+          <div class="value"><b><i>02</i> Honesty always</b><p>We tell you what's working and what isn't — even when it's uncomfortable. Trust is earned.</p></div>
+          <div class="value"><b><i>03</i> Curiosity</b><p>We keep learning, testing and improving. The best marketers are perpetual students.</p></div>
+          <div class="value"><b><i>04</i> Ownership</b><p>Your goals become our goals. We act like partners, not vendors.</p></div>
+          <div class="value"><b><i>05</i> Creativity with purpose</b><p>Great ideas should also drive great numbers. Creative that doesn't convert is just decoration.</p></div>
+          <div class="value"><b><i>06</i> Partnership</b><p>We succeed only when you do. Long-term growth beats short-term wins.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. OUR APPROACH -->
+    <section class="approach">
+      <div class="container">
+        <div class="eyebrow">OUR APPROACH</div>
+        <h2 class="serif">From insight to impact</h2>
+        <p class="lead">Every engagement follows a clear, transparent process so you always know what we're doing, why we're doing it, and what it's delivering.</p>
+        <div class="approach-bar">
+          <div class="approach-step"><em>01</em> Understand</div>
+          <div class="approach-step"><em>02</em> Diagnose</div>
+          <div class="approach-step"><em>03</em> Strategise</div>
+          <div class="approach-step"><em>04</em> Execute</div>
+          <div class="approach-step"><em>05</em> Measure & Optimise</div>
+        </div>
+        <a href="approach.html" style="font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--gold-dark);border-bottom:1px solid var(--gold)">EXPLORE OUR FULL APPROACH ↗</a>
+      </div>
+    </section>
+
+    <!-- 8. OUR TEAM -->
+    <section class="team">
+      <div class="container">
+        <div class="eyebrow">OUR TEAM</div>
+        <h2 class="serif">The people behind the performance</h2>
+        <p class="lead">Behind every campaign is a team that cares about your results. Meet the minds driving Clicorithm.</p>
+        <div class="team-grid">
+          <div class="team-card founder">
+            <div class="team-photo"><img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80" alt="[Founder Name]"></div>
+            <div class="team-info">
+              <b style="font-family:var(--serif);font-size:24px;font-weight:400">[Name], Founder & [Title]</b>
+              <small>Founder Story</small>
+              <p>[2–3 lines on their background, experience and why they started Clicorithm. Keep it real and specific — e.g., previous role, first client problem, years in performance marketing.]</p>
+            </div>
+          </div>
+          <div class="team-card"><div class="team-photo"><img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=600&q=80" alt="Team member"></div><div class="team-info"><b>[Name]</b><small>[Role — e.g., Performance Lead]</small><p>[One-line bio: expertise and focus.]</p></div></div>
+          <div class="team-card"><div class="team-photo"><img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=600&q=80" alt="Team member"></div><div class="team-info"><b>[Name]</b><small>[Role — e.g., SEO Strategist]</small><p>[One-line bio: expertise and focus.]</p></div></div>
+          <div class="team-card"><div class="team-photo"><img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=600&q=80" alt="Team member"></div><div class="team-info"><b>[Name]</b><small>[Role — e.g., Creative Lead]</small><p>[One-line bio: expertise and focus.]</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. GLOBAL PRESENCE -->
+    <section>
+      <div class="container global-grid">
+        <div>
+          <div class="eyebrow">GLOBAL PRESENCE</div>
+          <h2 class="serif">Based in Bengaluru. Working worldwide.</h2>
+          <p class="lead">From our home in Bengaluru, we work with clients across India, the USA and Europe. Our teams work across time zones, so your campaigns keep moving, and you always have someone to speak to.</p>
+          <div class="loc-list">
+            <div class="loc"><span>🇮🇳 <b>India — Head Office, Bengaluru</b> [Full address / area if you want to publish]</span><span class="muted">HQ</span></div>
+            <div class="loc"><span>🇺🇸 <b>USA</b> [City / Remote if applicable — remove if not yet established]</span><span class="muted">Client Hub</span></div>
+            <div class="loc"><span>🇪🇺 <b>Europe</b> [City / Remote if applicable — remove if not yet established]</span><span class="muted">Client Hub</span></div>
+          </div>
+        </div>
+        <div style="background:#e9e1d3;min-height:380px;overflow:hidden"><img src="https://images.unsplash.com/photo-1526772668213-3f4a58e4ec6a?auto=format&fit=crop&w=1000&q=80" alt="Global presence" style="width:100%;height:380px;object-fit:cover;display:block"></div>
+      </div>
+    </section>
+
+    <!-- 10. CAREERS -->
+    <section class="careers">
+      <div class="container careers-grid">
+        <div><div class="eyebrow">CAREERS AT CLICORITHM</div><h2 class="serif" style="color:#fff">Grow your career with us</h2><p>We're always looking for curious, driven people who love digital marketing as much as we do. If you want to work on meaningful campaigns with a team that values learning and ownership, we'd love to hear from you.</p></div>
+        <div><a class="btn" href="careers.html">VIEW OPEN POSITIONS ↗</a></div>
+      </div>
+    </section>
+
+    <!-- 11. CTA -->
+    <section class="cta" id="contact">
+      <div class="container cta-grid">
+        <div><div class="eyebrow" style="color:#fff0d8">LET'S BUILD YOUR NEXT STAGE OF GROWTH</div><h2 class="serif">Let's build your next stage of growth</h2><p>Whether you're launching, scaling or entering a new market, Clicorithm can help you get there. Book a free consultation and let's talk about your goals.</p></div>
+        <div><a class="btn" href="mailto:hello@clicorithm.com?subject=Book%20a%20Consultation">BOOK A CONSULTATION ↗</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="container">
+    <div class="footer-grid">
+      <div><div class="footer-brand">CLICORITHM<small>GROWTH PARTNER</small></div><p class="footer-about">Digital growth, designed with purpose. Strategy, creativity and technology working together to move businesses forward.</p></div>
+      <div class="footer-col"><b>Explore</b><a href="about.html">About Us</a><a href="services.html">What We Do</a><a href="approach.html">Our Approach</a><a href="work.html">Our Work</a></div>
+      <div class="footer-col"><b>Discover</b><a href="industries.html">Industries</a><a href="insights.html">Insights</a><a href="approach.html#method">The Clicorithm Method</a><a href="#contact">Contact</a></div>
+      <div class="footer-col"><b>Get in touch</b><a href="mailto:hello@clicorithm.com">hello@clicorithm.com</a><a href="#contact">Book a Consultation</a><a>Bengaluru, India</a></div>
+    </div>
+    <div class="copyright"><span>© <span id="year"></span> Clicorithm. All rights reserved.</span><span>Digital Growth. Global Ambition. Measurable Results.</span></div>
+  </div></footer>
+  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
